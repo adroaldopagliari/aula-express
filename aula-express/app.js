@@ -28,6 +28,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/users', users);
+app.use('/beers', users);
 
 //API Json
 app.use('/api/beers', API.beers);
