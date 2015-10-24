@@ -64,7 +64,8 @@ var Controller = {
 				console.log("Cerveja deletada com sucesso, quantidade: ", data.result);
 				msg = data.result;
 			}
-			res.json(msg);
+			//res.json(msg);
+			res.render('index', { title: 'Pós WebMob Unoesc' });
 		});
 	}
 }
