@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Pós WebMob Unoesc' });
+  res.render('index', { title: 'WebMob UNOESC' });
 });
 
 module.exports = router;
