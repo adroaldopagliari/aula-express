@@ -12,4 +12,6 @@ router.post('/', function(req, res, next){
 	Controller.create(req, res);
 })
 
+router.put('/:id', );
+
 module.exports = router;
